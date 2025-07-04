@@ -1,10 +1,16 @@
-import {React, useState} from 'react';
-import { Outlet,Link} from "react-router-dom";//must use link to change pages
+import {React,useState,useEffect} from 'react';
+import { Outlet,Link,useLocation} from "react-router-dom";//must use link to change pages
 import "./layout.css";
 import image from "./../assets/testBG.webp" ;
 
 export default function Page(){
+    const loc = useLocation();
     const[bgImg, setBGImg] = useState(image)
+
+    useEffect(()=>{
+        window.scrollTo(0,0);
+        //can be removed if scroll is supposed to remain between pages
+    },[loc.pathname])
     
     return(
         <div>

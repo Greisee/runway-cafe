@@ -8,7 +8,7 @@ export default function TopMenu(){
     return(
         <div className = "topMenu">
             <Link to = "/">
-                <h1> Runway Cafe </h1>  
+                <h2> Runway Cafe </h2>  
             </Link>
             <div className = "navBar">
                 <TopButton target = "/Menu" text = "Menu"/>

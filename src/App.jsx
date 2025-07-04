@@ -1,28 +1,35 @@
-import { React, useEffect } from 'react'
+import React from 'react'
 import {BrowserRouter,Route,Routes} from "react-router-dom";
 import Error404 from "./Components/Utility/Error404.jsx";
 import Layout from "./Components/Layout/Layout.jsx";
 import Page from "./Components/Layout/Page.jsx";
 import Home from "./Components/Content/Home.jsx";
 import Menu from "./Components/Content/Menu.jsx";
+import Catering from "./Components/Content/Catering.jsx";
+import Contact from "./Components/Content/Contact.jsx";
 import OrderOnline from "./Components/Content/OrderOnline.jsx";
 
-function App() {
 
+export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout/>}>
-            <Route index element={<Home/>}/>
-            <Route path="Page/" element={<Page/>}>
-              <Route path="OrderOnline" element={<OrderOnline/>}/>
-              <Route path="Menu" element={<Menu/>}/>
-            </Route>
-            <Route path="*" element={<Error404/>}/>
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout/>}>
+              <Route index element={<Home/>}/>
+              <Route path="*" element={<Error404/>}/>
+
+              <Route path="Page/" element={<Page/>}>
+                <Route path="OrderOnline" element={<OrderOnline/>}/>
+                <Route path="Menu" element={<Menu/>}/>
+                <Route path="Catering" element={<Catering/>}/>
+                <Route path="Contact" element={<Contact/>}/>
+              </Route>
+              
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
+    
     )
 }
-
-export default App

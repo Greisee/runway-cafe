@@ -13,7 +13,7 @@ body{
 .mainContent{
     min-height: 99vh;
     align-items: center;
-    position:relative;
+    position: relative;
 }
 
 .topMenu{
@@ -26,6 +26,18 @@ body{
     top: 0;
     background-color: #ffffffdc;
     z-index: 5;
+}
+
+h2{
+    padding:1vw;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: #511204;
 }
 
 .navBar{
@@ -76,4 +88,5 @@ body{
 footer{
     padding: 2vh;
     text-align: center;
+    background-color: #00000000;
 }

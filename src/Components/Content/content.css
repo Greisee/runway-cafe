@@ -1,5 +1,32 @@
-.home{
-    display: flex;
+.basicText{
     justify-content: center;
     min-height: inherit;
+    text-align: center;
+    width:45vw;
 }
+
+.homeBG{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+}
+
+.homeContent{
+    width:75vw;
+    height:60vh;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.catering{
+
+}
+
+.contact{
+
+}
+

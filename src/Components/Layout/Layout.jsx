@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet,Link} from "react-router-dom";//must use link to change pages
+import { Outlet} from "react-router-dom";//must use link to change pages
 import TopMenu from './TopMenu';
 import "./layout.css";
 
