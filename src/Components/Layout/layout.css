@@ -1,0 +1,79 @@
+body{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.veryTop{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 99vw;
+}
+
+.mainContent{
+    min-height: 99vh;
+    align-items: center;
+    position:relative;
+}
+
+.topMenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    height: 10vh;
+    top: 0;
+    background-color: #ffffffdc;
+    z-index: 5;
+}
+
+.navBar{
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.topButton{
+    padding: 1vw;
+}
+
+.stuckImage{
+    /* url("./../assets/testBG.webp")*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    height:75vh;
+    width:100vw;
+    top: 0vh;
+    left:0vh;
+    z-index: 0;
+}
+
+.placeHolder{
+    position:static;
+    height:20vh;
+    width:100vw;
+    background-color: #00000000;
+}
+
+.stuckImgFlexbox{
+   position: relative;
+   background-color: antiquewhite;
+   z-index: 1;
+   min-height:110vh;
+}
+
+.stuckImgContent{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height:inherit;
+}
+
+footer{
+    padding: 2vh;
+    text-align: center;
+}
