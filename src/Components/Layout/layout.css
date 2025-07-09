@@ -1,13 +1,26 @@
 body{
-    background-color: antiquewhite;
+    background-color: #E8E8E1;
     color: black;
+    
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 .veryTop{
     position:relative;
     display: flex;
     flex-direction: column;
-    min-width: 99vw;
+    min-width: 100%;
+}
+
+.mobileTop{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
 }
 
 .mainContent{
@@ -26,6 +39,13 @@ body{
     top: 0;
     background-color: #ffffffdc;
     z-index: 5;
+}
+
+.photo{
+    width:auto;
+    height: 11vh;
+    margin-top: 3vh;
+    margin-right: 10vw;
 }
 
 h2{
@@ -58,7 +78,7 @@ a:hover{
     background-size: cover;
     position: fixed;
     height:75vh;
-    width:100vw;
+    width:99vw;
     top: 0vh;
     left:0vh;
     z-index: 0;
@@ -67,20 +87,20 @@ a:hover{
 .placeHolder{
     position:static;
     height:20vh;
-    width:100vw;
+    width:99vw;
     background-color: #00000000;
 }
 
 .stuckImgFlexbox{
    position: relative;
-   background-color: antiquewhite;
+   background-color: #E8E8E1;
    z-index: 1;
    min-height:110vh;
 }
 
 .stuckImgContent{
    display: flex;
-   align-items: center;
+   align-items: flex-start;
    justify-content: center;
    min-height:inherit;
 }

@@ -3,6 +3,7 @@ import {BrowserRouter,Route,Routes} from "react-router-dom";
 import Error404 from "./Components/Utility/Error404.jsx";
 import Layout from "./Components/Layout/Layout.jsx";
 import Page from "./Components/Layout/Page.jsx";
+import MobilePage from "./Components/Layout/mobileLayout/MobilePage.jsx";
 import Home from "./Components/Content/Home.jsx";
 import Menu from "./Components/Content/Menu.jsx";
 import Catering from "./Components/Content/Catering.jsx";
@@ -12,7 +13,7 @@ import OrderOnline from "./Components/Content/OrderOnline.jsx";
 
 export default function App() {
   return (
-    <div>
+    <div style = {{backgroundColor:"#00000000"}}>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout/>}>
@@ -21,7 +22,14 @@ export default function App() {
 
               <Route path="Page/" element={<Page/>}>
                 <Route path="OrderOnline" element={<OrderOnline/>}/>
-                <Route path="Menu" element={<Menu/>}/>
+                <Route path="Menu/:menu" element={<Menu/>}/>
+                <Route path="Catering" element={<Catering/>}/>
+                <Route path="Contact" element={<Contact/>}/>
+              </Route>
+
+              <Route path="MobilePage/" element={<MobilePage/>}>
+                <Route path="OrderOnline" element={<OrderOnline/>}/>
+                <Route path="Menu/:menu" element={<Menu/>}/>
                 <Route path="Catering" element={<Catering/>}/>
                 <Route path="Contact" element={<Contact/>}/>
               </Route>

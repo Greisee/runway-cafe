@@ -22,6 +22,47 @@
     background-color: antiquewhite;
 }
 
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menuTable{
+    border-collapse: collapse;
+}
+
+.menuTable td{
+    border: 1px solid;
+    padding: 0;
+    margin:0;
+    margin-top:0;
+    font-weight: 400;
+}
+
+.menuTable td:hover{
+    background-color:blue;
+}
+
+.menuTable h4{
+    padding: 100px;
+    font-weight: 400;
+    display:block;
+}
+
+.menuTable a{
+    padding: 0;
+    margin:0;
+}
+
+#menuTableHead{
+    border: none;
+    padding:2vh;
+    background-color: #00000000;
+}
+
 .catering{
 
 }
