@@ -15,7 +15,7 @@ export default function MobilePage(){
       },[loc.pathname])
   
       return(
-          <div className="mTop">  
+          <div className="mTop">
               <div className="mStuckImage" style = {{backgroundImage:`url(${bgImg})`}}/>
               <div className="mPlaceHolder"/>
               <div className="mStuckImgFlexbox">

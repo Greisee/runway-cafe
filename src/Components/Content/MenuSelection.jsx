@@ -1,8 +1,13 @@
-import React from "react";
-import {Link} from "react-router-dom";
+import {React,useEffect,useState} from "react";
+import {Link, useParams} from "react-router-dom";
 
 
 export default function MenuSelection(){
+    const[selected,setSelected] = useState("");
+
+    const choose=(m)=>{
+        setSelected(m);
+    }
 
     return(
          <div>
@@ -16,21 +21,21 @@ export default function MenuSelection(){
                 </thead>
                 <tbody>
                     <tr>
-                        <td>
-                            <Link to={"/Page/Menu/Cafe"}>
+                        <td className={selected == "Cafe"? "selected":""} onClick={()=>choose("Cafe")}>
+                            <Link to={"/Page/Menu/Cafe"} >
                                 <h4>
                                   Cafe Menu
                                 </h4>
                             </Link>
                         </td>
-                        <td>
+                        <td className={selected == "Inflight"? "selected":""} onClick={()=>choose("Inflight")}>
                             <Link to={"/Page/Menu/Inflight"}>
                                 <h4>
                                     Inflight Procurements
                                 </h4>
                             </Link>
                         </td>
-                        <td>
+                        <td className={selected == "Catering"? "selected":""} onClick={()=>choose("Catering")}>
                             <Link to={"/Page/Menu/Catering"}>
                                 <h4>
                                     Catering Menu

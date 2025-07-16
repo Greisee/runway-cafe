@@ -1,6 +1,6 @@
 {
   "name": "runway-cafe",
-  "homepage": "https://Greisee.github.io/runway-cafe",
+  "homepage": "https://greisee.github.io/runway-cafe",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,6 +14,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@formfacade/embed-react": "^1.1.2",
+    "cheerio": "^1.1.0",
     "gh-pages": "^6.3.0",
     "helmet": "^8.1.0",
     "react": "^19.1.0",

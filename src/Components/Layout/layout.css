@@ -72,6 +72,10 @@ a:hover{
     padding: 1vw;
 }
 
+.topButton:hover, #selected{
+    background-color: #0000002f;
+}
+
 .stuckImage{
     /* url("./../assets/testBG.webp")*/
     background-repeat: no-repeat;

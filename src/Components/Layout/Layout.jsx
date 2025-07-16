@@ -27,8 +27,8 @@ export default function Layout(){
                 <Helmet>
                     Runway Cafe
                 </Helmet>
+                <MobileTop/>
                 <div className = "mobileContent">
-                    <MobileTop/>
                     <Outlet/>
                 </div>
                 <div>

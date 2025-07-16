@@ -19,7 +19,7 @@
     width:75vw;
     height:60vh;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: #e8e8e0;
 }
 
 .menu{
@@ -42,12 +42,12 @@
     font-weight: 400;
 }
 
-.menuTable td:hover{
-    background-color:blue;
+.menuTable td:hover, .selected{
+    background-color:#c8c8c0;
 }
 
 .menuTable h4{
-    padding: 100px;
+    padding: 25px;
     font-weight: 400;
     display:block;
 }
@@ -64,10 +64,21 @@
 }
 
 .catering{
+    
+}
 
+.cateringForm{
+    background-color: #e8e8e0;
+    color: red;
 }
 
 .contact{
 
 }
 
+.contactSocials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

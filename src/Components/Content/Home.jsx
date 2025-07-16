@@ -17,6 +17,8 @@ export default function Home(){
                 <MobileTopMenu/>
                 <div className="mHomeContent">
                     Welcome to Runway Cafe!
+                    We are excited and proud to be serving fresh and delicious meals
+                     at the Executive Terminal starting May 1st, 2025
                 </div>
             </div>
         )
@@ -25,7 +27,13 @@ export default function Home(){
         return(
             <div className="homeBG" style = {{backgroundImage:`url(${image})`}}>
                 <div className="homeContent">
-                    Welcome to Runway Cafe!
+                    <h3>
+                        Welcome to Runway Cafe!
+                    </h3>
+                    <p>
+                        We are excited and proud to be serving fresh and delicious meals
+                            at the Executive Terminal starting May 1st, 2025
+                    </p>
                 </div>
             </div>
         )
