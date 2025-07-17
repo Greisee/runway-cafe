@@ -1,10 +1,12 @@
 import React from "react";
 import "./content.css";
 import socials from "./../assets/SocialLogos.png";
+import ContactForm from "./ContactForm.jsx";
 
 export default function Contact(){
     return(
         <div className="contact">
+            <ContactForm/>
             <p>Runway Cafe by Runway Gourmet</p>
             <p>2488 Winchester Rd Memphis, TN 38126</p>
             <p>(901) 123-4567</p>
