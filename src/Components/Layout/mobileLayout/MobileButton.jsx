@@ -5,7 +5,7 @@ import "./mobile.css"
 export default function MobileButton(props){
     return(
         <div className="mButton">
-            <Link to={props.target}>
+            <Link to={"/runway-cafe/MobilePage/" + props.target}>
                 {props.title}
             </Link>
         </div>

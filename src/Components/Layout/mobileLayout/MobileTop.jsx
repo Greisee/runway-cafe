@@ -6,7 +6,7 @@ import logo from "./../../assets/logo.png";
 export default function MobileTop(){
     return(
         <div className="mTop">
-            <Link to={"/"}>
+            <Link to={"/runway-cafe/"}>
                 <img src = {logo} id="topLogo"/>
             </Link>
         </div>

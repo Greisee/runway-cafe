@@ -9,22 +9,22 @@ export default function MobileTopMenu(){
                 <tbody>
                     <tr>
                         <td>
-                            <MobileButton title="Order Now" target="/MobilePage/OrderOnline"/>
+                            <MobileButton title="Order Now" target="OrderOnline"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <MobileButton title="Menu" target="/MobilePage/Menu/none"/>
+                            <MobileButton title="Menu" target="Menu/none"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <MobileButton title="Catering" target="/MobilePage/Catering"/>
+                            <MobileButton title="Catering" target="Catering"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <MobileButton title="Contact Us" target="/MobilePage/Contact"/>
+                            <MobileButton title="Contact Us" target="Contact"/>
                         </td>
                     </tr>
                 </tbody>
