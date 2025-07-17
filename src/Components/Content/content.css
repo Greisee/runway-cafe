@@ -19,7 +19,7 @@
     width:75vw;
     height:60vh;
     text-align: center;
-    background-color: #e8e8e0;
+    background-color: #2e5a88;
 }
 
 .menu{
@@ -43,7 +43,7 @@
 }
 
 .menuTable td:hover, .selected{
-    background-color:#c8c8c0;
+    background-color:#1e4a78;
 }
 
 .menuTable h4{
@@ -63,13 +63,21 @@
     background-color: #00000000;
 }
 
+.menuDisplay img{
+    max-width:40vw;
+    padding: 5vh;
+}
+
 .catering{
     
 }
 
 .cateringForm{
-    background-color: #e8e8e0;
-    color: red;
+}
+
+iframe{
+    border:none;
+    background: transparent;
 }
 
 .contact{

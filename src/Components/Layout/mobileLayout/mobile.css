@@ -18,7 +18,7 @@ body{
 }
 
 .mTop{
-    background-color: #E8E8E1;
+    background-color: #2e5a88;
     width: 100vw;
     max-height: 20vh;
     display: flex;
@@ -46,7 +46,7 @@ body{
 .mTopMenuTable, table, tr, td{
     text-align: center;
     width:60vw;
-    background-color: #E8E8E1;
+    background-color: #2e5a88;
 }
 
 .mButton{
@@ -81,7 +81,7 @@ body{
 
 .mStuckImgFlexbox{
     position: relative;
-    background-color: #E8E8E1;
+    background-color: #2e5a88;
     z-index: 1;
     min-height:100%;
 }

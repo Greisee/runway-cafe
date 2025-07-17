@@ -1,5 +1,5 @@
 body{
-    background-color: #000080;
+    background-color: #2e5a88;
     color: black;
     
     font-family: "Merienda", cursive;
@@ -37,7 +37,7 @@ body{
     position: sticky;
     height: 10vh;
     top: 0;
-    background-color: #ffffffdc;
+    background-color: #2e5a88dc;
     z-index: 5;
 }
 
@@ -57,7 +57,7 @@ a{
 }
 
 a:hover{
-    color: #511204;
+    color: #d0d0d0;
 }
 
 .navBar{
@@ -97,7 +97,7 @@ a:hover{
 
 .stuckImgFlexbox{
    position: relative;
-   background-color: #E8E8E1;
+   background-color: #2e5a88;
    z-index: 1;
    min-height:110vh;
 }

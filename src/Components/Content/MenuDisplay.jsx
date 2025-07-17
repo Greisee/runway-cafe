@@ -13,21 +13,21 @@ export default function MenuDisplay(){
 
     if(m == "Cafe"){
         return(
-            <div>
+            <div className = "menuDisplay">
                 <img src={cafe}/>
             </div>
         )
     }
     else if(m == "Inflight"){
         return(
-            <div>
+            <div className = "menuDisplay">
                 inflight
             </div>
         )
     }
     else if(m == "Catering"){
         return(
-            <div>
+            <div className = "menuDisplay">
                 catering
             </div>
         )   
