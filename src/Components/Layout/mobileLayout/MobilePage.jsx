@@ -3,7 +3,7 @@ import { Outlet,Link,useLocation} from "react-router-dom";//must use link to cha
 import "./mobile.css";
 import MobileTopMenu from "./mobileTopMenu.jsx";
 import logo from "./../../assets/logo.png";
-import image from "./../../assets/testBG.webp" ;
+import image from "./../../assets/testBG2.webp" ;
 
 export default function MobilePage(){
       const loc = useLocation();

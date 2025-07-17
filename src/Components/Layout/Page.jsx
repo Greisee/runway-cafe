@@ -1,7 +1,7 @@
 import {React,useState,useEffect} from 'react';
 import { Outlet,Link,useLocation} from "react-router-dom";//must use link to change pages
 import "./layout.css";
-import image from "./../assets/testBG.webp" ;
+import image from "./../assets/testBG.jpeg" ;
 
 export default function Page(){
     const loc = useLocation();

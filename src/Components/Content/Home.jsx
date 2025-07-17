@@ -1,7 +1,7 @@
 import {React, useEffect, useState} from "react";
 import "./content.css";
 import "./../Layout/mobileLayout/mobile.css";
-import image from "./../assets/testBG2.webp" ;
+import image from "./../assets/testBG.jpeg" ;
 import MobileTopMenu from "../Layout/mobileLayout/mobileTopMenu";
 
 
