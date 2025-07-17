@@ -16,7 +16,7 @@ export default function App() {
     <div style = {{backgroundColor:"#00000000"}}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout/>}>
+          <Route path="/runway-cafe/" element={<Layout/>}>
               <Route index element={<Home/>}/>
               <Route path="*" element={<Error404/>}/>
 
