@@ -7,7 +7,7 @@ export default function ContactForm(){
                 title="Contact" onLoad={()=>window.parent.scrollTo(0,0)} 
                 allowtransparency="true" 
                 background = "transparent"
-                style = {{minWidth:"752px", height:"50vh"}}
+                style = {{minWidth:"752px", height:"1200px"}}
                 src="https://form.jotform.com/251974813642059">
             </iframe> 
         </div>
